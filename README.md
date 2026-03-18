@@ -53,10 +53,10 @@ LeaveDesk follows a modern, decoupled **Three-Tier Architecture** that cleanly s
 
 ```mermaid
 graph TD
-    Client["💻 Client Browser<br>(HTML5, CSS3, Vanilla JS)"]
-    FrontendServer["🌐 Frontend Server<br>(Express Static, Port 3000)"]
-    API["⚙️ Backend REST API<br>(Node.js/Express, Port 5000)"]
-    DB[("🗄️ Database<br>(MySQL 8+)<br>Views & Stored Procedures")]
+    Client["💻 Client Browser (HTML5, CSS3, Vanilla JS)"]
+    FrontendServer["🌐 Frontend Server (Express Static, Port 3000)"]
+    API["⚙️ Backend REST API (Node.js/Express, Port 5000)"]
+    DB[("🗄️ Database (MySQL 8+, Views & Stored Procedures)")]
     
     Client -- "Static Assets (HTML/CSS/JS)" --> FrontendServer
     Client -- "REST/JSON over HTTP (JWT Secured)" --> API
