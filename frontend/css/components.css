@@ -1,0 +1,52 @@
+/* ── BADGES ── */
+.badge2{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:99px;font-size:11px;font-weight:600;font-family:var(--font);white-space:nowrap;line-height:1.4}
+.b-pending{background:rgba(251,191,36,.15);color:var(--warning)}
+.b-approved{background:rgba(34,211,165,.15);color:var(--success)}
+.b-rejected{background:rgba(248,113,113,.15);color:var(--danger)}
+.b-cancelled{background:rgba(90,90,122,.2);color:var(--text3)}
+.b-vacation{background:rgba(108,99,255,.15);color:var(--accent2)}
+.b-sick{background:rgba(56,189,248,.15);color:var(--accent3)}
+.b-personal{background:rgba(251,191,36,.15);color:var(--warning)}
+.b-bereavement{background:rgba(248,113,113,.12);color:var(--danger)}
+.b-maternity{background:rgba(34,211,165,.12);color:var(--success)}
+.b-neutral{background:var(--bg4);color:var(--text2)}
+.b-active{background:rgba(34,211,165,.12);color:var(--success)}
+.b-onleave{background:rgba(251,191,36,.13);color:var(--warning)}
+
+/* ── BUTTONS ── */
+.btn{padding:9px 17px;border-radius:var(--r2);font-family:var(--font);font-size:12.5px;font-weight:600;cursor:pointer;border:none;transition:.15s;display:inline-flex;align-items:center;gap:7px;line-height:1;white-space:nowrap;text-decoration:none}
+.btn-primary{background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff;box-shadow:0 2px 14px rgba(108,99,255,.3)}
+.btn-primary:hover{opacity:.9;transform:translateY(-1px);box-shadow:0 4px 20px rgba(108,99,255,.4)}
+.btn-ghost{background:var(--bg4);color:var(--text2);border:1px solid var(--border)}
+.btn-ghost:hover{color:var(--text);border-color:var(--border2)}
+.btn-success{background:rgba(34,211,165,.12);color:var(--success);border:1px solid rgba(34,211,165,.3)}
+.btn-success:hover{background:rgba(34,211,165,.22)}
+.btn-danger{background:rgba(248,113,113,.1);color:var(--danger);border:1px solid rgba(248,113,113,.28)}
+.btn-danger:hover{background:rgba(248,113,113,.2)}
+.btn-sm{padding:5px 11px;font-size:11.5px}
+
+/* ── INFO BOX ── */
+.info-box{background:rgba(108,99,255,.1);border:1px solid rgba(108,99,255,.25);border-radius:var(--r2);padding:12px 16px;display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--text2);line-height:1.55}
+.info-box strong{color:var(--text)}
+
+/* ── BALANCE LIST ── */
+.balance-list{display:flex;flex-direction:column;gap:14px}
+.balance-item{display:flex;align-items:center;gap:14px}
+.balance-info{flex:1;min-width:0}
+.balance-name{font-size:13px;font-weight:500;color:var(--text)}
+.balance-used{font-size:11px;color:var(--text2)}
+.balance-num{font-family:var(--font);font-weight:700;font-size:18px;color:var(--text);white-space:nowrap}
+
+/* ── ACTIVITY FEED ── */
+.feed{display:flex;flex-direction:column}
+.feed-item{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border)}
+.feed-item:last-child{border:none;padding-bottom:0}
+.feed-dot{width:8px;height:8px;border-radius:50%;margin-top:5px;flex-shrink:0}
+.feed-text{font-size:12.5px;color:var(--text2);line-height:1.55}
+.feed-text strong{color:var(--text);font-weight:500}
+.feed-time{font-size:11px;color:var(--text3);margin-top:2px}
+
+/* ── STAT MINI ── */
+.stat-mini{display:flex;align-items:baseline;gap:3px}
+.stat-mini .num{font-family:var(--font);font-weight:700;font-size:15px;color:var(--text)}
+.stat-mini .denom{font-size:11px;color:var(--text3)}
